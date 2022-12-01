@@ -1,0 +1,45 @@
+Comandos:
+criando projeto
+npx create-react-app podcastr
+
+para gerar o ambiente
+yarn start
+
+criando projeto next
+npx create-next-app podcastrnext
+
+Instala o typescript e o typescript para react e node
+yarn add typescript @types/react @types/node -D
+
+Integra o sass no react
+yarn add sass
+
+Biblioteca de datas do javascript
+yarn add date-fns
+
+Server para json
+yarn add json-server -D
+
+Para rodar o server do json:
+yarn server
+
+Simula um build, como seria no server, o console da várias informações da aplicação gerada
+λ SSR Server side renders
+● SSG Static site generate
+yarn build
+
+Adiciona o axios
+yarn add axios
+
+Libb para slider de player
+yarn add rc-slider
+--------------------------------------------------------------------------------------
+
+Componente do react: function que retorna uma html
+
+Propriedade do react: pode ser acessada pela função de retorno do componente, nela poderá se obter o valor que é carregado na invocação do componente,
+por exemplo: <Button title="Botão 1"> podemos acessar o valor do title dentro da funçãp com os parâmetros, usando props.title. O "props" deve ser informado como parâmetro da função
+Outra maneira é passando como filho dentro da tag do componente, exemplo: <Button>Botão 1</Button> e para acessar devemos usar props.children.
+
+
+
